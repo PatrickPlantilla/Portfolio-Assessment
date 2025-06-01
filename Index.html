@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Patrick's Portfolio Website</h1>
+        <p>University Projects (Year 1 - Year 3)</p>
+    </header>
+    <section class="intro-section">
+        <img src="https://lh3.googleusercontent.com/d/10n-kXevz2wtHYuFhRCtAnkFU18BxsTz0" alt="Profile Photo" class="profile-pic">
+        <div class="intro-text">
+            <h2>Hello, I'm Patrick Plantilla!</h2>
+            <p>
+                I'm a university student with a keen interest in technology, design, computer science, and creative problem-solving. This website showcases my projects throughout my university career. Feel free to explore!
+            </p>
+        </div>
+    </section>
+    <main>
+        <div class="year-container" id="year3-container">
+            <section class="year-section">
+                <h2>Year 3</h2>
+                <ul>
+                    <li><a href="#" class="project-link" data-project="tomorrows-web">Tomorrows Web Website</a></li>
+                    <li><a href="#" class="project-link" data-project="physical-computing">Physical Computing Portfolio</a></li>
+                    <li><a href="#" class="project-link" data-project="creative-incubator">Creative Incubator Project</a></li>
+                    <li class="special"><a href="#" class="project-link" data-project="ml-final">Machine Learning Final Experiment</a></li>
+                    <li><a href="#" class="project-link" data-project="ml-small">Machine Learning Small Experiments</a></li>
+                    <li><a href="#" class="project-link" data-project="research-viva">Research Project (Research and Presentation VIVA)</a></li>
+                    <li><a href="#" class="project-link" data-project="cyber-security">Cyber Security Report</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="year-container" id="year2-container">
+            <section class="year-section">
+                <h2>Year 2</h2>
+                <ul>
+                    <li><a href="#" class="project-link" data-project="tech-assessment">Emerging Technology 2nd Assessment (Data Visualization and Chatbot AI)</a></li>
+                    <li><a href="#" class="project-link" data-project="mobile-multi">Mobile App Development Multi-View</a></li>
+                    <li><a href="#" class="project-link" data-project="mobile-single">Mobile App Development Single-View</a></li>
+                    <li class="special"><a href="#" class="project-link" data-project="game-dev">Game Development</a></li>
+                    <li><a href="#" class="project-link" data-project="tkinter">Advanced Programming Tkinter</a></li>
+                    <li><a href="#" class="project-link" data-project="responsive-web">Responsive Website</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="year-container" id="year1-container">
+            <section class="year-section">
+                <h2>Year 1</h2>
+                <ul>
+                    <li class="special"><a href="#" class="project-link" data-project="makey-makey">Makey Makey Project</a></li>
+                    <li><a href="#" class="project-link" data-project="web-prog">Web Programming Website Project</a></li>
+                    <li><a href="#" class="project-link" data-project="ux-design">UX Design Designed Project (Mobile App Design)</a></li>
+                    <li><a href="#" class="project-link" data-project="storytelling">Digital Storytelling Sway Portfolio</a></li>
+                    <li><a href="#" class="project-link" data-project="visual-design">Visual Design Portfolio</a></li>
+                    <li><a href="#" class="project-link" data-project="vending-machine">Intro to Programming Vending Machine</a></li>
+                </ul>
+            </section>
+        </div>
+        <!-- Popup Modal -->
+        <div class="project-popup-overlay" id="projectPopupOverlay">
+            <div class="project-popup" id="projectPopup">
+                <button class="popup-close" id="popupCloseBtn" aria-label="Close">&times;</button>
+                <h3 id="popupTitle">Project Title</h3>
+                <p id="popupDesc">Project description goes here.</p>
+                <div class="popup-media" id="popupMedia">
+                    <!-- Video or image will be injected here -->
+                </div>
+                <a href="#" class="popup-link" id="popupDriveLink" target="_blank">Link</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Patrick Plantilla. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
