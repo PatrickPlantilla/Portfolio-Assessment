@@ -44,14 +44,14 @@ const projectData = {
     'tomorrows-web': {
         title: 'Tomorrows Web Website',
         desc: 'A modern web project exploring the future of web technologies, design, and interactivity.',
-        images: ['https://lh3.googleusercontent.com/d/'],
-        link: '#'
+        images: ['https://lh3.googleusercontent.com/d/1QXThYcgWWYvYCC22SuLaIy5YiPGyrGpm'],
+        link: 'https://eighty7.onrender.com/'
     },
     'physical-computing': {
         title: 'Physical Computing Portfolio',
         desc: 'A portfolio of hands-on projects integrating hardware and software for creative solutions.',
-        images: ['https://lh3.googleusercontent.com/d/'],
-        link: '#'
+        images: ['https://lh3.googleusercontent.com/d/1eBs_y19MLIeZJbQjxey9vsZem6fJoVGO'],
+        link: 'https://sway.cloud.microsoft/jHpGXFrUEqYGKqek?ref=Link'
     },
     'creative-incubator': {
         title: 'Creative Incubator Project',
